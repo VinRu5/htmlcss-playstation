@@ -3,7 +3,12 @@
     width: 100%;
 }
 
-
+[class^="button-"] {
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+}
 
 
 
@@ -17,14 +22,36 @@ header {
 
 /* riscrittura navbar bootstrap */
 
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, .3);
+}
 
 /* ------------ */
 
 .button-black {
     border: 1px solid #333;
-    border-radius: 15px;
     background-color: #333;
+    font-size: 14px;
+}
+
+
+/* inizio main page  */
+
+/* sezione jumbotron */
+.jumbotron {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    padding-top: 450px;
+    padding-bottom: 50px;
     color: #fff;
-    font-size: 12px;
-    padding: 5px 10px;
+}
+
+.jumbotron img, .jumbotron h1, .description {
+    margin-bottom: 24px;
+}
+
+
+.button-red {
+    border: 1px solid #CD3D0F;
+    background-color: #CD3D0F;
 }
