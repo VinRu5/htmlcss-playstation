@@ -71,3 +71,18 @@ header {
 }
 
 /* sezione games */
+.game-img {
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.game-img:hover {
+    border-color: #0074D0;
+}
+
+.game-img-inner {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
