@@ -1,11 +1,11 @@
 /* class utility */
 body {
     font-weight: 500;
-    color: #333;
 }
 
 h1 {
     font-size: 40px;
+    margin-bottom: 36px;
 }
 
 section {
@@ -61,7 +61,7 @@ header {
     color: #fff;
 }
 
-.jumbotron img, .jumbotron h1, .description {
+.jumbotron img, .description {
     margin-bottom: 24px;
 }
 
@@ -86,3 +86,13 @@ header {
     overflow: hidden;
 }
 
+/* sezione play station */
+.top-title {
+    color: #0074D0;
+    font-size: 16px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 25px;
+}
