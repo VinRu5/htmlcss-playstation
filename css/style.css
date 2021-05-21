@@ -74,12 +74,12 @@ nav.navbar {
 
 /* ------------ */
 .button-bg-black {
-    background-color: #333;
+    background-color: #363636;
     font-size: 14px;
 }
 
 .button-black:hover {
-    border: 2px solid #333;
+    border: 2px solid #363636;
 }
 
 
@@ -101,11 +101,11 @@ nav.navbar {
 }
 
 .button-bg-red {
-    background-color: #CD3D0F;
+    background-color: #BE4825;
 }
 
 .button-red:hover {
-    border: 2px solid #CD3D0F;
+    border: 2px solid #BE4825;
 }
 
 /* sezione games */
@@ -118,7 +118,7 @@ nav.navbar {
 }
 
 .game-img:hover {
-    border-color: #0074D0;
+    border-color: #3467DE;
 }
 
 .game-img-inner {
@@ -127,22 +127,22 @@ nav.navbar {
 
 /* sezione play station */
 .top-title {
-    color: #0074D0;
+    color: #3467DE;
     font-size: 16px;
 }
 
 .subtitle {
-    color: #777;
+    color: #888;
     font-size: 22px;
     margin-bottom: 24px;
 }
 
 .button-bg-blue {
-    background-color: #0074D0;
+    background-color: #3467DE;
 }
 
 .button-blue:hover {
-    border: 2px solid #0074D0;
+    border: 2px solid #3467DE;
 }
 
 .ps-item {
@@ -153,7 +153,7 @@ nav.navbar {
 
 .ps-item:hover {
     opacity: 1;
-    border-bottom: 2px solid #0074D0;
+    border-bottom: 2px solid #3467DE;
 }
 
 .ps-subtitle {
@@ -201,3 +201,50 @@ section.new-rel {
     padding-bottom: 36px;
 }
 
+/* sezione plus */
+.ps-plus {
+    background-color: #BEBCBB;
+}
+
+/* .plus-info {
+    padding-top: 48px;
+    padding-bottom: 48px;
+} */
+
+.ps-plus .plus-info img {
+    width: 300px
+}
+
+.ps-plus .plus-img img {
+    width: 100%;
+}
+
+.banner-text {
+    font-size: 20px;
+    padding-top: 36px;
+    padding-bottom: 24px;
+}
+
+.button-bg-grey {
+    background-color: #D9DADC;
+    color: #3467DE;
+}
+
+.button-grey:hover {
+    border: 2px solid #D9DADC;
+}
+
+
+
+
+
+
+
+
+/* 
+appunti colori 
+#D9DADC button plus
+#BEBCBB bg plus
+#161D39 bg now
+
+*/
