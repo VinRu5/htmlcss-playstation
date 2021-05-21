@@ -39,6 +39,22 @@ header {
     border-color: rgba(0, 0, 0, .3);
 }
 
+nav.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.nav-item .nav-link::after {
+    content: "\f078";
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 12px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
 /* ------------ */
 
 .button-black {
@@ -52,7 +68,7 @@ header {
 
 /* sezione jumbotron */
 .jumbotron {
-    background-image: url(../img/jumbo-bg.png);
+    background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
     padding-top: 250px;
@@ -104,17 +120,22 @@ header {
 
 .ps-item {
     position: relative;
+    opacity: .5;
+    border-bottom: 2px solid #fff;
 }
 
-.ps-opacity {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .3);
+.ps-item:hover {
+    opacity: 1;
+    border-bottom: 2px solid #0074D0;
 }
 
 .ps-subtitle {
     text-align: center;
+}
+
+.take-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
