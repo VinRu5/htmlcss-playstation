@@ -27,13 +27,19 @@ h2 {
 }
 
 [class^="button-"] {
-    border-radius: 18px;
+    border-radius: 20px;
     color: #fff;
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 2px;
     font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 
+[class^="button-bg-"] {
+    border-radius: 18px;
+    padding: 5px 10px;
+}
 
 /* end class utility */
 
@@ -42,6 +48,7 @@ header {
     padding-bottom: 12px;
     background-color: #000;
 }
+
 
 /* riscrittura navbar bootstrap */
 
@@ -66,12 +73,15 @@ nav.navbar {
 }
 
 /* ------------ */
-
-.button-black {
-    border: 1px solid #333;
+.button-bg-black {
     background-color: #333;
     font-size: 14px;
 }
+
+.button-black:hover {
+    border: 2px solid #333;
+}
+
 
 
 /* inizio main page  */
@@ -90,9 +100,12 @@ nav.navbar {
     margin-bottom: 24px;
 }
 
-.button-red {
-    border: 1px solid #CD3D0F;
+.button-bg-red {
     background-color: #CD3D0F;
+}
+
+.button-red:hover {
+    border: 2px solid #CD3D0F;
 }
 
 /* sezione games */
@@ -124,9 +137,12 @@ nav.navbar {
     margin-bottom: 24px;
 }
 
-.button-blue {
+.button-bg-blue {
     background-color: #0074D0;
-    border: 1px solid #0074D0;
+}
+
+.button-blue:hover {
+    border: 2px solid #0074D0;
 }
 
 .ps-item {
