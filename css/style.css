@@ -13,6 +13,10 @@ h2 {
     font-size: 30px;
 }
 
+ul {
+    list-style: none;
+}
+
 .m-bottom {
     margin-bottom: 36px;
 }
@@ -262,4 +266,34 @@ su responsive
     border: 2px solid #fff;
 }
 
-/* sezione social */
+/* sezione footer */
+footer {
+    background-color: #114596;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.footer-play img {
+    width: 100px;
+    margin-bottom: 24px;
+}
+
+.country img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.copyright span {
+    text-decoration: underline;
+}
+
+.footer-link ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.copyright img {
+    width: 100px;
+}
+
