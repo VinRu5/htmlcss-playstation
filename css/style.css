@@ -8,12 +8,22 @@ h1 {
     margin-bottom: 36px;
 }
 
-section {
+h2 {
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.m-bottom {
     margin-bottom: 30px;
 }
 
 .img-100 {
     width: 100%;
+}
+
+.radius-img {
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 [class^="button-"] {
@@ -86,9 +96,12 @@ nav.navbar {
 }
 
 /* sezione games */
+.games {
+    margin-bottom: 60px;
+}
+
 .game-img {
     border: 2px solid #fff;
-    border-radius: 20px;
 }
 
 .game-img:hover {
@@ -97,8 +110,6 @@ nav.navbar {
 
 .game-img-inner {
     border: 2px solid #fff;
-    border-radius: 20px;
-    overflow: hidden;
 }
 
 /* sezione play station */
@@ -142,3 +153,22 @@ nav.navbar {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+/* sezione new releases */
+section.new-rel {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+.new-rel {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.new-rel .subtitle {
+    color: #fff;
+}
+
+
+
