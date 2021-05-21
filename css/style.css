@@ -14,7 +14,7 @@ h2 {
 }
 
 .m-bottom {
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 
 .img-100 {
@@ -126,7 +126,7 @@ nav.navbar {
 
 .button-blue {
     background-color: #0074D0;
-    border-color: #0074D0;
+    border: 1px solid #0074D0;
 }
 
 .ps-item {
@@ -150,13 +150,13 @@ nav.navbar {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* sezione new releases */
 section.new-rel {
-    padding-top: 30px;
+    padding-top: 36px;
     padding-bottom: 60px;
 }
 
@@ -170,5 +170,18 @@ section.new-rel {
     color: #fff;
 }
 
+/* sezione esplora play */
+.explorer {
+    padding-top: 60px;
+}
 
+.reg-style {
+    font-size: 24px;
+    vertical-align: top;
+    font-weight: 300;
+}
+
+.explorer-item {
+    padding-bottom: 36px;
+}
 
