@@ -204,24 +204,25 @@ section.new-rel {
 /* sezione plus */
 .ps-plus {
     background-color: #BEBCBB;
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 400px;
 }
-
-/* .plus-info {
-    padding-top: 48px;
-    padding-bottom: 48px;
-} */
 
 .ps-plus .plus-info img {
     width: 300px
 }
 
-.ps-plus .plus-img img {
-    width: 100%;
-}
+/* 
+immagine di sfondo da sistemare 
+su responsive
+*/
 
 .banner-text {
     font-size: 20px;
-    padding-top: 36px;
+    padding-top: 24px;
     padding-bottom: 24px;
 }
 
