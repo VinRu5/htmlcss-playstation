@@ -207,22 +207,17 @@ section.new-rel {
 
 /* sezione plus */
 .ps-plus {
-    background-color: #BEBCBB;
-    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    height: 400px;
+    background: #BEBCBB;
+}
+
+.plus-info {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .ps-plus .plus-info img {
     width: 300px
 }
-
-/* 
-immagine di sfondo da sistemare 
-su responsive
-*/
 
 .banner-text {
     font-size: 20px;
@@ -246,7 +241,12 @@ su responsive
 
 /* sezione playstation now */
 .ps-now {
-    background-color: #161D39;
+    background: #161D39;
+}
+
+.now-info {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .ps-now .banner-text {
@@ -297,3 +297,17 @@ footer {
     width: 100px;
 }
 
+
+
+@media screen and (min-width: 768px) {
+    
+    .ps-plus {
+        background: #BEBCBB url('../img/ps-plus-april-monthly-games-featured-image-block.png') no-repeat right;
+        background-size: contain;
+    }
+
+    .ps-now {
+        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat right;
+        background-size: contain;
+    }
+}
