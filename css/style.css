@@ -86,8 +86,6 @@ nav.navbar {
     border: 2px solid #363636;
 }
 
-
-
 /* inizio main page  */
 
 /* sezione jumbotron */
@@ -119,10 +117,11 @@ nav.navbar {
 
 .game-img {
     border: 2px solid #fff;
+    opacity: .7;
 }
 
 .game-img:hover {
-    border-color: #3467DE;
+    opacity: 1;
 }
 
 .game-img-inner {
@@ -298,7 +297,7 @@ footer {
 }
 
 
-
+/* media query */
 @media screen and (min-width: 768px) {
     
     .ps-plus {
@@ -319,3 +318,141 @@ footer {
         background-size: contain;
     }
 }
+/* -------------------- */
+
+/* animation */
+.animation-1 {
+    animation: onda-1 10s linear infinite;
+}
+
+.animation-2 {
+    animation: onda-2 10s linear infinite;
+}
+
+.animation-3 {
+    animation: onda-3 10s linear infinite;
+}
+
+.animation-4 {
+    animation: onda-4 10s linear infinite;
+}
+
+.animation-5 {
+    animation: onda-5 10s linear infinite;
+}
+
+.animation-6 {
+    animation: onda-6 10s linear infinite;
+}
+
+@keyframes onda-1 {
+    0% {
+        border: 2px solid #fff;
+    }
+    
+    1% {
+        border: 2px solid #3467de;
+    }
+
+    15% {
+        border: 2px solid #3467de;
+    }
+
+    16% {
+        border: 2px solid #fff;
+    }
+}
+
+@keyframes onda-2 {
+    16% {
+        border: 2px solid #fff;
+    }
+    
+    17% {
+        border: 2px solid #3467de;
+    }
+
+    31% {
+        border: 2px solid #3467de;
+    }
+
+    32% {
+        border: 2px solid #fff;
+    }
+}
+
+@keyframes onda-3 {
+    32% {
+        border: 2px solid #fff;
+    }
+    
+    33% {
+        border: 2px solid #3467de;
+    }
+
+    47% {
+        border: 2px solid #3467de;
+    }
+
+    48% {
+        border: 2px solid #fff;
+    }
+}
+
+@keyframes onda-4 {
+    48% {
+        border: 2px solid #fff;
+    }
+    
+    49% {
+        border: 2px solid #3467de;
+    }
+
+    63% {
+        border: 2px solid #3467de;
+    }
+
+    64% {
+        border: 2px solid #fff;
+    }
+}
+
+@keyframes onda-5 {
+    64% {
+        border: 2px solid #fff;
+    }
+    
+    65% {
+        border: 2px solid #3467de;
+    }
+
+    79% {
+        border: 2px solid #3467de;
+    }
+
+    80% {
+        border: 2px solid #fff;
+    }
+}
+
+@keyframes onda-6 {
+    80% {
+        border: 2px solid #fff;
+    }
+    
+    81% {
+        border: 2px solid #3467de;
+    }
+
+    99% {
+        border: 2px solid #3467de;
+    }
+
+    100% {
+        border: 2px solid #fff;
+    }
+}
+
+
+
+/* --------------- */
