@@ -1,6 +1,6 @@
 /* class utility */
-body {
-    font-weight: 500;
+body, h1, h1 {
+    font-weight: 300;
 }
 
 h1 {
@@ -67,13 +67,25 @@ nav.navbar {
     z-index: 1001;
 }
 
+.nav-item .nav-link {
+    font-size: 14px;
+}
+
 .nav-item .nav-link::after {
     content: "\f078";
     font-weight: 900;
     font-family: 'Font Awesome 5 Free';
-    font-size: 12px;
+    font-size: 10px;
     vertical-align: middle;
     padding: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2D64E6;
+}
+
+.navbar-light .navbar-nav .nav-link:hover i {
+    color: #333
 }
 
 /* ------------ */
@@ -103,11 +115,11 @@ nav.navbar {
 }
 
 .button-bg-red {
-    background-color: #BE4825;
+    background-color: #CD3D0F;
 }
 
 .button-red:hover {
-    border: 2px solid #BE4825;
+    border: 2px solid #CD3D0F;
 }
 
 /* sezione games */
@@ -130,34 +142,45 @@ nav.navbar {
 
 /* sezione play station */
 .top-title {
-    color: #3467DE;
+    color: #2D64E6;
     font-size: 16px;
 }
 
 .subtitle {
     color: #888;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 24px;
 }
 
 .button-bg-blue {
-    background-color: #3467DE;
+    background-color: #2D64E6;
 }
 
 .button-blue:hover {
-    border: 2px solid #3467DE;
+    border: 2px solid #2D64E6;
 }
 
-.ps-item {
+a.ps-item {
+    color: #333;
+    text-decoration: none;
     position: relative;
     opacity: .5;
     border-bottom: 2px solid #fff;
 }
 
-.ps-item:hover {
-    opacity: 1;
-    border-bottom: 2px solid #3467DE;
+a.ps-item img {
+    width: 70%;
 }
+
+a.ps-item:hover {
+    opacity: 1;
+}
+
+a.ps-item:focus {
+    opacity: 1;
+    border-bottom: 2px solid #2D64E6;
+}
+
 
 .ps-subtitle {
     text-align: center;
@@ -204,6 +227,10 @@ section.new-rel {
     padding-bottom: 36px;
 }
 
+.explorer-item img {
+    cursor: pointer;
+}
+
 /* sezione plus */
 .ps-plus {
     background: #BEBCBB;
@@ -226,7 +253,7 @@ section.new-rel {
 
 .button-bg-grey {
     background-color: #D9DADC;
-    color: #3467DE;
+    color: #2D64E6;
 }
 
 .button-grey:hover {
@@ -265,6 +292,11 @@ section.new-rel {
     border: 2px solid #fff;
 }
 
+/* sezione social */
+.social img {
+    cursor: pointer;
+}
+
 /* sezione footer */
 footer {
     background-color: #114596;
@@ -290,6 +322,7 @@ footer {
 .footer-link ul li {
     margin-bottom: 10px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .copyright img {
@@ -322,134 +355,158 @@ footer {
 
 /* animation */
 .animation-1 {
-    animation: onda-1 10s linear infinite;
+    animation: onda-1 20s linear infinite;
 }
 
 .animation-2 {
-    animation: onda-2 10s linear infinite;
+    animation: onda-2 20s linear infinite;
 }
 
 .animation-3 {
-    animation: onda-3 10s linear infinite;
+    animation: onda-3 20s linear infinite;
 }
 
 .animation-4 {
-    animation: onda-4 10s linear infinite;
+    animation: onda-4 20s linear infinite;
 }
 
 .animation-5 {
-    animation: onda-5 10s linear infinite;
+    animation: onda-5 20s linear infinite;
 }
 
 .animation-6 {
-    animation: onda-6 10s linear infinite;
+    animation: onda-6 20s linear infinite;
 }
 
 @keyframes onda-1 {
     0% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     1% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     15% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     16% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
 @keyframes onda-2 {
     16% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     17% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     31% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     32% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
 @keyframes onda-3 {
     32% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     33% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     47% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     48% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
 @keyframes onda-4 {
     48% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     49% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     63% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     64% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
 @keyframes onda-5 {
     64% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     65% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     79% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     80% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
 @keyframes onda-6 {
     80% {
         border: 2px solid #fff;
+        opacity: .7;
     }
     
     81% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     99% {
-        border: 2px solid #3467de;
+        border: 2px solid #2D64E6;
+        opacity: 1;
     }
 
     100% {
         border: 2px solid #fff;
+        opacity: .7;
     }
 }
 
