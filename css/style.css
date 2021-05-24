@@ -248,7 +248,7 @@ section.new-rel {
     background: #BEBCBB;
 }
 
-.plus-info {
+.plus-info, .now-info {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -269,17 +269,8 @@ section.new-rel {
     background: #161D39;
 }
 
-.now-info {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .ps-now .banner-text {
     color: #fff;
-}
-
-.ps-now .now-info img {
-    width: 300px
 }
 
 /* sezione social */
