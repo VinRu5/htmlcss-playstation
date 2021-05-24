@@ -253,12 +253,8 @@ section.new-rel {
     padding-bottom: 24px;
 }
 
-.ps-plus .plus-info img {
-    width: 300px
-}
-
 .banner-text {
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -322,29 +318,6 @@ footer {
 .copyright img {
     width: 100px;
 }
-
-/* media query */
-@media screen and (min-width: 768px) {
-    
-    .ps-plus {
-        background: #BEBCBB url('../img/ps-plus-april-monthly-games-featured-image-block.png') no-repeat 95%;
-        background-size: contain;
-    }
-
-    .ps-now {
-        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat right;
-        background-size: contain;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .ps-now {
-        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat 95%;
-        background-size: contain;
-    }
-}
-/* -------------------- */
 
 /* animation */
 .animation-1 {
