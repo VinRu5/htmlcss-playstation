@@ -1,3 +1,164 @@
+/* animation */
+.animation-1 {
+    animation: onda-1 20s linear infinite;
+}
+
+.animation-2 {
+    animation: onda-2 20s linear infinite;
+}
+
+.animation-3 {
+    animation: onda-3 20s linear infinite;
+}
+
+.animation-4 {
+    animation: onda-4 20s linear infinite;
+}
+
+.animation-5 {
+    animation: onda-5 20s linear infinite;
+}
+
+.animation-6 {
+    animation: onda-6 20s linear infinite;
+}
+
+@keyframes onda-1 {
+    0% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    1% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    15% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    16% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+@keyframes onda-2 {
+    16% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    17% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    31% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    32% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+@keyframes onda-3 {
+    32% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    33% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    47% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    48% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+@keyframes onda-4 {
+    48% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    49% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    63% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    64% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+@keyframes onda-5 {
+    64% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    65% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    79% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    80% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+@keyframes onda-6 {
+    80% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+    
+    81% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    99% {
+        border: 2px solid #2D64E6;
+        opacity: 1;
+    }
+
+    100% {
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: .7;
+    }
+}
+
+
+
+/* --------------- */
+
 /* class utility */
 body, h1, h1 {
     font-weight: 300;
@@ -128,17 +289,24 @@ nav.navbar {
 }
 
 .game-img {
-    border: 2px solid #fff;
+    border: 2px solid rgba(0, 0, 0, 0);
     opacity: .7;
+    position: relative;
+    transition: all 1s;
 }
 
 .game-img:hover {
     opacity: 1;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 0px 5px 30px grey;
 }
 
 .game-img-inner {
-    border: 2px solid #fff;
+    border: 2px solid rgba(0, 0, 0, 0);
 }
+
+
 
 /* sezione play station */
 .top-title {
@@ -353,163 +521,3 @@ footer {
 }
 /* -------------------- */
 
-/* animation */
-.animation-1 {
-    animation: onda-1 20s linear infinite;
-}
-
-.animation-2 {
-    animation: onda-2 20s linear infinite;
-}
-
-.animation-3 {
-    animation: onda-3 20s linear infinite;
-}
-
-.animation-4 {
-    animation: onda-4 20s linear infinite;
-}
-
-.animation-5 {
-    animation: onda-5 20s linear infinite;
-}
-
-.animation-6 {
-    animation: onda-6 20s linear infinite;
-}
-
-@keyframes onda-1 {
-    0% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    1% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    15% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    16% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-@keyframes onda-2 {
-    16% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    17% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    31% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    32% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-@keyframes onda-3 {
-    32% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    33% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    47% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    48% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-@keyframes onda-4 {
-    48% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    49% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    63% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    64% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-@keyframes onda-5 {
-    64% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    65% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    79% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    80% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-@keyframes onda-6 {
-    80% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-    
-    81% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    99% {
-        border: 2px solid #2D64E6;
-        opacity: 1;
-    }
-
-    100% {
-        border: 2px solid #fff;
-        opacity: .7;
-    }
-}
-
-
-
-/* --------------- */
