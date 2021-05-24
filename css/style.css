@@ -1,3 +1,351 @@
+/* class utility */
+body, h1, h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.m-bottom {
+    margin-bottom: 36px;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.radius-img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+/* end class utility */
+
+/* buttons */
+[class^="button-"] {
+    border-radius: 22px;
+    color: #fff;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+[class^="button-bg-"] {
+    border-radius: 18px;
+    padding: 5px 15px;
+}
+
+.button-bg-black {
+    background-color: #363636;
+    font-size: 14px;
+}
+
+.button-black:hover {
+    border: 2px solid #363636;
+}
+
+.button-bg-red {
+    background-color: #CD3D0F;
+}
+
+.button-red:hover {
+    border: 2px solid #CD3D0F;
+}
+
+.button-bg-blue {
+    background-color: #2D64E6;
+}
+
+.button-blue:hover {
+    border: 2px solid #2D64E6;
+}
+
+.button-bg-white {
+    background-color: #fff;
+    color: #000;
+}
+
+.button-white:hover {
+    border: 2px solid #fff;
+}
+
+.button-bg-grey {
+    background-color: #D9DADC;
+    color: #2D64E6;
+}
+
+.button-grey:hover {
+    border: 2px solid #D9DADC;
+}
+
+/* -------------- */
+
+header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000;
+}
+
+/* riscrittura navbar bootstrap */
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, .3);
+}
+
+nav.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+}
+
+.nav-item .nav-link::after {
+    content: "\f078";
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2D64E6;
+}
+
+.navbar-light .navbar-nav .nav-link:hover i {
+    color: #333
+}
+/* ------------ */
+
+/* inizio main page  */
+
+/* sezione jumbotron */
+.jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.jumbotron img, .jumbo-text {
+    margin-bottom: 24px;
+}
+/* sezione games */
+.games {
+    margin-bottom: 60px;
+}
+
+.game-img {
+    border: 2px solid rgba(0, 0, 0, 0);
+    opacity: .7;
+    position: relative;
+    transition: all 1ms;
+}
+
+.game-img:hover {
+    opacity: 1;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 0px 5px 30px grey;
+}
+
+.game-img-inner {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+/* sezione play station */
+.top-title {
+    color: #2D64E6;
+    font-size: 16px;
+}
+
+a.ps-item {
+    color: #333;
+    text-decoration: none;
+    opacity: .5;
+    border-bottom: 2px solid #fff;
+}
+
+a.ps-item img {
+    width: 70%;
+}
+
+a.ps-item:hover {
+    opacity: 1;
+}
+
+a.ps-item:focus {
+    opacity: 1;
+    border-bottom: 2px solid #2D64E6;
+}
+
+/* sezione take two */
+.takes-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* sezione new releases */
+section.new-rel {
+    padding-top: 36px;
+    padding-bottom: 60px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.new-rel-item {
+    margin-bottom: 24px;
+}
+
+.new-rel .subtitle {
+    color: #fff;
+}
+
+/* sezione esplora play */
+.explorer-ps {
+    padding-top: 60px;
+}
+
+.reg-style {
+    font-size: 24px;
+    vertical-align: top;
+    font-weight: 200;
+}
+
+.explorer-item img {
+    cursor: pointer;
+}
+
+/* sezione plus */
+.ps-plus {
+    background: #BEBCBB;
+}
+
+.plus-info {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.ps-plus .plus-info img {
+    width: 300px
+}
+
+.banner-text {
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/* sezione sales */
+.sales img {
+    margin-bottom: 24px;
+}
+
+/* sezione playstation now */
+.ps-now {
+    background: #161D39;
+}
+
+.now-info {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.ps-now .banner-text {
+    color: #fff;
+}
+
+.ps-now .now-info img {
+    width: 300px
+}
+
+/* sezione social */
+.social img {
+    cursor: pointer;
+}
+
+/* sezione footer */
+footer {
+    background-color: #114596;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.footer-play img {
+    width: 100px;
+    margin-bottom: 24px;
+}
+
+.country img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.footer-link ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.copyright span {
+    text-decoration: underline;
+}
+
+.copyright img {
+    width: 100px;
+}
+
+/* media query */
+@media screen and (min-width: 768px) {
+    
+    .ps-plus {
+        background: #BEBCBB url('../img/ps-plus-april-monthly-games-featured-image-block.png') no-repeat 95%;
+        background-size: contain;
+    }
+
+    .ps-now {
+        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat right;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .ps-now {
+        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat 95%;
+        background-size: contain;
+    }
+}
+/* -------------------- */
+
 /* animation */
 .animation-1 {
     animation: onda-1 20s linear infinite;
@@ -154,370 +502,4 @@
         opacity: .7;
     }
 }
-
-
-
 /* --------------- */
-
-/* class utility */
-body, h1, h1 {
-    font-weight: 300;
-}
-
-h1 {
-    font-size: 40px;
-    margin-bottom: 36px;
-}
-
-h2 {
-    margin-bottom: 24px;
-    font-size: 30px;
-}
-
-ul {
-    list-style: none;
-}
-
-.m-bottom {
-    margin-bottom: 36px;
-}
-
-.img-100 {
-    width: 100%;
-}
-
-.radius-img {
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-[class^="button-"] {
-    border-radius: 22px;
-    color: #fff;
-    font-size: 16px;
-    padding: 2px;
-    font-weight: 500;
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, 0);
-}
-
-[class^="button-bg-"] {
-    border-radius: 18px;
-    padding: 5px 10px;
-}
-
-/* end class utility */
-
-header {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #000;
-}
-
-
-/* riscrittura navbar bootstrap */
-
-.navbar-light .navbar-toggler {
-    border-color: rgba(0, 0, 0, .3);
-}
-
-nav.navbar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1001;
-}
-
-.nav-item .nav-link {
-    font-size: 14px;
-}
-
-.nav-item .nav-link::after {
-    content: "\f078";
-    font-weight: 900;
-    font-family: 'Font Awesome 5 Free';
-    font-size: 10px;
-    vertical-align: middle;
-    padding: 3px;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #2D64E6;
-}
-
-.navbar-light .navbar-nav .nav-link:hover i {
-    color: #333
-}
-
-/* ------------ */
-.button-bg-black {
-    background-color: #363636;
-    font-size: 14px;
-}
-
-.button-black:hover {
-    border: 2px solid #363636;
-}
-
-/* inizio main page  */
-
-/* sezione jumbotron */
-.jumbotron {
-    background-image: url('../img/jumbo-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding-top: 250px;
-    padding-bottom: 50px;
-    color: #fff;
-}
-
-.jumbotron img, .description {
-    margin-bottom: 24px;
-}
-
-.button-bg-red {
-    background-color: #CD3D0F;
-}
-
-.button-red:hover {
-    border: 2px solid #CD3D0F;
-}
-
-/* sezione games */
-.games {
-    margin-bottom: 60px;
-}
-
-.game-img {
-    border: 2px solid rgba(0, 0, 0, 0);
-    opacity: .7;
-    position: relative;
-    transition: all 1s;
-}
-
-.game-img:hover {
-    opacity: 1;
-    bottom: 10px;
-    background-color: rgba(0, 0, 0, .3);
-    box-shadow: 0px 5px 30px grey;
-}
-
-.game-img-inner {
-    border: 2px solid rgba(0, 0, 0, 0);
-}
-
-
-
-/* sezione play station */
-.top-title {
-    color: #2D64E6;
-    font-size: 16px;
-}
-
-.subtitle {
-    color: #888;
-    font-size: 20px;
-    margin-bottom: 24px;
-}
-
-.button-bg-blue {
-    background-color: #2D64E6;
-}
-
-.button-blue:hover {
-    border: 2px solid #2D64E6;
-}
-
-a.ps-item {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    opacity: .5;
-    border-bottom: 2px solid #fff;
-}
-
-a.ps-item img {
-    width: 70%;
-}
-
-a.ps-item:hover {
-    opacity: 1;
-}
-
-a.ps-item:focus {
-    opacity: 1;
-    border-bottom: 2px solid #2D64E6;
-}
-
-
-.ps-subtitle {
-    text-align: center;
-}
-
-/* sezione take two */
-.takes-two {
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-/* sezione new releases */
-section.new-rel {
-    padding-top: 36px;
-    padding-bottom: 60px;
-    background-color: #1f1f1f;
-    color: #fff;
-}
-
-.new-rel-item {
-    margin-bottom: 24px;
-}
-
-.new-rel .subtitle {
-    color: #fff;
-}
-
-/* sezione esplora play */
-.explorer {
-    padding-top: 60px;
-}
-
-.reg-style {
-    font-size: 24px;
-    vertical-align: top;
-    font-weight: 300;
-}
-
-.explorer-item {
-    padding-bottom: 36px;
-}
-
-.explorer-item img {
-    cursor: pointer;
-}
-
-/* sezione plus */
-.ps-plus {
-    background: #BEBCBB;
-}
-
-.plus-info {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.ps-plus .plus-info img {
-    width: 300px
-}
-
-.banner-text {
-    font-size: 20px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.button-bg-grey {
-    background-color: #D9DADC;
-    color: #2D64E6;
-}
-
-.button-grey:hover {
-    border: 2px solid #D9DADC;
-}
-
-/* sezione sales */
-.sales img {
-    margin-bottom: 24px;
-}
-
-/* sezione playstation now */
-.ps-now {
-    background: #161D39;
-}
-
-.now-info {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.ps-now .banner-text {
-    color: #fff;
-}
-
-.ps-now .now-info img {
-    width: 300px
-}
-
-.button-bg-white {
-    background-color: #fff;
-    color: #000;
-}
-
-.button-white:hover {
-    border: 2px solid #fff;
-}
-
-/* sezione social */
-.social img {
-    cursor: pointer;
-}
-
-/* sezione footer */
-footer {
-    background-color: #114596;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    color: #fff;
-}
-
-.footer-play img {
-    width: 100px;
-    margin-bottom: 24px;
-}
-
-.country img {
-    width: 18px;
-    vertical-align: middle;
-}
-
-.copyright span {
-    text-decoration: underline;
-}
-
-.footer-link ul li {
-    margin-bottom: 10px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.copyright img {
-    width: 100px;
-}
-
-
-/* media query */
-@media screen and (min-width: 768px) {
-    
-    .ps-plus {
-        background: #BEBCBB url('../img/ps-plus-april-monthly-games-featured-image-block.png') no-repeat 95%;
-        background-size: contain;
-    }
-
-    .ps-now {
-        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat right;
-        background-size: contain;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .ps-now {
-        background: #161D39 url('../img/ps-now-april-featured-image-block.png') no-repeat 95%;
-        background-size: contain;
-    }
-}
-/* -------------------- */
-
